@@ -2,6 +2,9 @@
 
 This is a package that calculates the numeric integral of a regular funcion using Gauss Quadrature.
 
+```
+import GaussIntegration from "./GaussIntegration.js";
+
 //Example code:
 
 // GaussIntegration(f, n, a, b)
@@ -15,3 +18,4 @@ return x;
 }
 
 console.log(GaussIntegration(f, 4, 0, 1)); // shoud return 0.4999999999999968
+```
