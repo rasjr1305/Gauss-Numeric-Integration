@@ -3,7 +3,7 @@
 This is a package that calculates the numeric integral of a regular funcion using Gauss Quadrature.
 
 ```
-import GaussIntegration from "./GaussIntegration.js";
+import GaussIntegration from "gauss-numeric-integration";
 
 //Example code:
 
@@ -14,8 +14,8 @@ import GaussIntegration from "./GaussIntegration.js";
 // b is the upper limit of integration
 
 function f(x) {
-return x;
+  return x;
 }
 
-console.log(GaussIntegration(f, 4, 0, 1)); // shoud return 0.4999999999999968
+console.log(GaussIntegration(f, 16, 0, 1)); // should return 0.4999999999999988
 ```
